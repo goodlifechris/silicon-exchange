@@ -18,6 +18,10 @@ const Speakers: CollectionConfig = {
       type: 'text',
     },
     {
+      name: 'contacts',
+      type: 'text',
+    },
+    {
       name: 'company',
       type: 'text',
     },

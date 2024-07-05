@@ -1,9 +1,8 @@
 # Run on a specific port
 PORT=3000
 
-# Database connection string mongodb+srv://christopherndugo:12Sylvester@cluster0.0rkpl2o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
-DATABASE_URI='mongodb+srv://christopherndugo:12Sylvester@cluster0.0rkpl2o.mongodb.net/?appName=Cluster0'
+# Database connection string
+DATABASE_URI=mongodb://127.0.0.1/payload-template-website
 
 # Used to encrypt JWT tokens
 PAYLOAD_SECRET=YOUR_SECRET_HERE

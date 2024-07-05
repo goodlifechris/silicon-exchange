@@ -19,8 +19,8 @@ import { Projects } from './collections/Projects'
 import Sessions from './collections/Sessions'
 import Speakers from './collections/Speakers'
 import Users from './collections/Users'
-import BeforeDashboard from './components/BeforeDashboard'
-import BeforeLogin from './components/BeforeLogin'
+// import BeforeDashboard from './components/BeforeDashboard'
+// import BeforeLogin from './components/BeforeLogin'
 import { seed } from './endpoints/seed'
 import { Footer } from './globals/Footer'
 import { Header } from './globals/Header'
@@ -41,10 +41,10 @@ export default buildConfig({
     components: {
       // The `BeforeLogin` component renders a message that you see while logging into your admin panel.
       // Feel free to delete this at any time. Simply remove the line below and the import `BeforeLogin` statement on line 15.
-      beforeLogin: [BeforeLogin],
+      // beforeLogin: [BeforeLogin],
       // The `BeforeDashboard` component renders the 'welcome' block that you see after logging into your admin panel.
       // Feel free to delete this at any time. Simply remove the line below and the import `BeforeDashboard` statement on line 15.
-      beforeDashboard: [BeforeDashboard],
+      // beforeDashboard: [BeforeDashboard],
     },
     webpack: config => ({
       ...config,
