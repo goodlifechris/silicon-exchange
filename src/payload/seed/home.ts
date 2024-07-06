@@ -5,7 +5,7 @@ export const home: Partial<Page> = {
   slug: 'home',
   _status: 'published',
   meta: {
-    title: 'Payload Website Template',
+    title: 'Test payload website',
     description: 'An open-source website built with Payload and Next.js.',
     image: '{{IMAGE_1}}',
   },
