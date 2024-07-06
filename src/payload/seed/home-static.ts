@@ -28,7 +28,7 @@ export const staticHome: Page = {
             text: 'Welcome to your website! ',
           },
           {
-            text: 'Your database is currently empty.',
+            text: 'Your database is currently empty test deployment',
             bold: true,
           },
           {
@@ -91,7 +91,7 @@ export const staticHome: Page = {
         {
           children: [
             {
-              text: 'Your database is currently empty. To seed your database, ',
+              text: 'Your database is currently empty test deployment. To seed your database, ',
             },
             {
               type: 'link',
