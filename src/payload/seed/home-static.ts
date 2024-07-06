@@ -17,7 +17,7 @@ export const staticHome: Page = {
       {
         children: [
           {
-            text: 'Payload Website Template',
+            text: 'Test Website Template',
           },
         ],
         type: 'h1',
